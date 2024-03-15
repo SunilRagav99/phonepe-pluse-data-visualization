@@ -60,7 +60,7 @@ st.sidebar.header(":wave: :violet[**Hello! Welcome to the dashboard**]")
 
 with st.sidebar:
    selected = option_menu("Menu", ["Home","Charts & Explore Data","About"], 
-                icons=["house","graph-up-arrow","bar-chart-line", "exclamation-circle"],
+                icons=["house","bar-chart-line", "exclamation-circle"],
                 menu_icon= "menu-button-wide",
                 default_index=0,
                 styles={"nav-link": {"font-size": "20px", "text-align": "left", "margin": "-2px", "--hover-color": "#6F36AD"},
